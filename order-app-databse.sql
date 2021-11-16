@@ -31,10 +31,14 @@ CREATE TABLE `itenspedido` (
   PRIMARY KEY (`id`),
   KEY `numPedido` (`numPedido`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 =======
 ) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 >>>>>>> fork1
+=======
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+>>>>>>> 07990513509c151f40f25f45b02c0e9259a68e60
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -44,10 +48,14 @@ CREATE TABLE `itenspedido` (
 LOCK TABLES `itenspedido` WRITE;
 /*!40000 ALTER TABLE `itenspedido` DISABLE KEYS */;
 <<<<<<< HEAD
+<<<<<<< HEAD
 INSERT INTO `itenspedido` VALUES (1,'tv 4k','tv samsung 4k',2500,1),(2,'moto one action','smartphone motorola one action',1800,2),(3,'smartwatch','smartwatch xiomi android',900,2),(4,'tv 4k','tv lg 4k',2800,3),(5,'mousepad','mousepad redragon red action',200,4),(6,'rx 570 4gb','placa de vídeo amd radeon rx 570 4gb',800,5),(7,'ryzen 5 2400g','processador ryzen 5 2400g',1100,6),(8,'ryzen 5 2400g','processador ryzen 5 2400g',1400,7);
 =======
 INSERT INTO `itenspedido` VALUES (1,'tv 4k','tv samsung 4k',2500,1),(2,'moto one action','smartphone motorola one action',1800,2),(3,'smartwatch','smartwatch xiomi android',900,2),(4,'tv 4k','tv lg 4k',2800,3),(5,'mousepad','mousepad redragon red action',200,4),(6,'rx 570 4gb','placa de vídeo amd radeon rx 570 4gb',800,5),(7,'ryzen 5 2400g','processador ryzen 5 2400g',1100,6);
 >>>>>>> fork1
+=======
+INSERT INTO `itenspedido` VALUES (1,'tv 4k','tv samsung 4k',2500,1),(2,'moto one action','smartphone motorola one action',1800,2),(3,'smartwatch','smartwatch xiomi android',900,2),(4,'tv 4k','tv lg 4k',2800,3),(5,'mousepad','mousepad redragon red action',200,4),(6,'rx 570 4gb','placa de vídeo amd radeon rx 570 4gb',800,5),(7,'ryzen 5 2400g','processador ryzen 5 2400g',1100,6);
+>>>>>>> 07990513509c151f40f25f45b02c0e9259a68e60
 /*!40000 ALTER TABLE `itenspedido` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -69,10 +77,14 @@ CREATE TABLE `pedido` (
   KEY `tipoPgt` (`tipoPgt`),
   KEY `pedidoStts` (`pedidoStts`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 =======
 ) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 >>>>>>> fork1
+=======
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+>>>>>>> 07990513509c151f40f25f45b02c0e9259a68e60
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -82,10 +94,14 @@ CREATE TABLE `pedido` (
 LOCK TABLES `pedido` WRITE;
 /*!40000 ALTER TABLE `pedido` DISABLE KEYS */;
 <<<<<<< HEAD
+<<<<<<< HEAD
 INSERT INTO `pedido` VALUES (1,'123.456.789-00','2020-12-01 12:27:02',2500,1,1),(2,'321.654.987-00','2021-05-15 23:59:59',2700,4,2),(3,'546.789.321-10','2018-12-12 15:53:02',2800,2,6),(4,'741.369.852-56','2021-06-12 12:59:59',200,3,6),(5,'741.369.852-56','2021-06-13 01:12:55',800,3,6),(6,'789.753.357-10','2019-12-01 12:27:02',1100,3,6),(7,'789.753.357-10','2019-12-01 12:45:02',1100,3,6);
 =======
 INSERT INTO `pedido` VALUES (1,'123.456.789-00','2020-12-01 12:27:02',2500,1,1),(2,'321.654.987-00','2021-05-15 23:59:59',2700,4,2),(3,'546.789.321-10','2018-12-12 15:53:02',2800,2,6),(4,'741.369.852-56','2021-06-12 12:59:59',200,3,6),(5,'741.369.852-56','2021-06-13 01:12:55',800,3,6),(6,'789.753.357-10','2019-12-01 12:27:02',1100,3,6);
 >>>>>>> fork1
+=======
+INSERT INTO `pedido` VALUES (1,'123.456.789-00','2020-12-01 12:27:02',2500,1,1),(2,'321.654.987-00','2021-05-15 23:59:59',2700,4,2),(3,'546.789.321-10','2018-12-12 15:53:02',2800,2,6),(4,'741.369.852-56','2021-06-12 12:59:59',200,3,6),(5,'741.369.852-56','2021-06-13 01:12:55',800,3,6),(6,'789.753.357-10','2019-12-01 12:27:02',1100,3,6);
+>>>>>>> 07990513509c151f40f25f45b02c0e9259a68e60
 /*!40000 ALTER TABLE `pedido` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -147,7 +163,11 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 -- Dump completed on 2021-11-16 15:25:31
 =======
 -- Dump completed on 2021-11-16 15:22:40
 >>>>>>> fork1
+=======
+-- Dump completed on 2021-11-16 15:22:40
+>>>>>>> 07990513509c151f40f25f45b02c0e9259a68e60
